@@ -13,12 +13,13 @@ namespace APP1
             
            PhoneBook phoneBook = new PhoneBook();
             phoneBook.addnumber("heba", 32412);
-            phoneBook.addnumber("seraj", 4975);
-            phoneBook.addnumber("serajii", 4945);
+            phoneBook.addnumber("hebaa", 4975);
+            phoneBook.addnumber("hebaaa", 4945);
 
             Console.WriteLine(phoneBook.search("seraj")) ;
 
         }
     }
 }
+
 
