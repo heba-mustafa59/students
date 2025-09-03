@@ -1,13 +1,24 @@
-﻿namespace inherretance1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace APP1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            CsStudent student = new CsStudent(
-                2,"heba",3,"kkk",4);
-            student.printdata();    
             
+           PhoneBook phoneBook = new PhoneBook();
+            phoneBook.addnumber("heba", 32412);
+            phoneBook.addnumber("seraj", 4975);
+            phoneBook.addnumber("serajii", 4945);
+
+            Console.WriteLine(phoneBook.search("seraj")) ;
+
         }
     }
 }
+
