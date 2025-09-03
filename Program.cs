@@ -16,10 +16,11 @@ namespace APP1
             phoneBook.addnumber("hebaa", 4975);
             phoneBook.addnumber("hebaaa", 4945);
 
-            Console.WriteLine(phoneBook.search("seraj")) ;
+            Console.WriteLine(phoneBook.search("heba")) ;
 
         }
     }
 }
+
 
 
