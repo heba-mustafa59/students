@@ -11,16 +11,18 @@ namespace APP1
         static void Main(string[] args)
         {
             
-           PhoneBook phoneBook = new PhoneBook();
-            phoneBook.addnumber("heba", 32412);
-            phoneBook.addnumber("hebaa", 4975);
-            phoneBook.addnumber("hebaaa", 4945);
+          Account a1 = new Account();
+            a1.Name = "Heba";
+            a1.Balance= 100;
 
-            Console.WriteLine(phoneBook.search("heba")) ;
+            Account a2 = new Account();
+            a2.Name = "huda";
+            a2.Balance= 100;
+             
+            
+            Console.WriteLine(a1>a2);
 
         }
     }
 }
-
-
 
